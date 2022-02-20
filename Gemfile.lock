@@ -295,7 +295,7 @@ GEM
     jaro_winkler (1.5.4)
     jb (0.8.0)
     jmespath (1.6.0)
-    json (2.5.1)
+    json (2.6.1)
     jwt (2.2.3)
     kaminari (1.2.1)
       activesupport (>= 4.1.0)
@@ -309,10 +309,11 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
-    koala (3.0.0)
+    koala (3.1.0)
       addressable
-      faraday
+      faraday (< 2)
       json (>= 1.8)
+      rexml
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
